@@ -1,0 +1,24 @@
+{
+  "name": "base",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "authorization": {
+      "sudo": {
+        "groups": ["sysadmin"],
+        "users": ["admin"],
+        "passwordless": "true"
+      }
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[mycookbook]",
+    "recipe[selinux::permissive]"
+  ],
+  "env_run_lists": {
+
+  }
+}

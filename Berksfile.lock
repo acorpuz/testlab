@@ -1,0 +1,54 @@
+DEPENDENCIES
+  haproxy
+    git: https://github.com/sous-chefs/haproxy.git
+    revision: 8363aaf6d54e3ce21a11e57bb3015333863a9a24
+    tag: v5.0.2
+  java
+  mycookbook
+    path: ../../vagrant/chef/cookbooks/mycookbook
+  nrpe
+  selinux
+  sudo
+  tomcat
+  users
+
+GRAPH
+  apt (6.1.4)
+  build-essential (8.0.4)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  compat_resource (12.19.0)
+  cpu (2.0.0)
+  haproxy (5.0.2)
+    build-essential (>= 8.0.1)
+    compat_resource (>= 12.16.0)
+    cpu (>= 0.2.0)
+    poise-service (>= 1.5.1)
+  homebrew (4.2.0)
+  java (1.50.0)
+    apt (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  mingw (2.0.1)
+    seven_zip (>= 0.0.0)
+  mycookbook (1.0.0)
+    haproxy (>= 0.0.0)
+    sudo (>= 0.0.0)
+    users (>= 0.0.0)
+  nrpe (2.0.2)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  ohai (5.2.0)
+  poise (2.8.1)
+  poise-service (1.5.2)
+    poise (~> 2.0)
+  selinux (2.1.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  sudo (4.0.0)
+  tomcat (3.0.0)
+  users (5.3.1)
+  windows (3.4.1)
+    ohai (>= 4.0.0)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)

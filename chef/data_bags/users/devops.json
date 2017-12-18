@@ -1,0 +1,12 @@
+{
+  "id": "devops", 
+  "password": "$1$d...HgH0",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCciVsDm1cwMriNMLbXnrCVeMa9vDZ5OxRsevCl1Jfic7T+QaswiZciuZftx0T7xIH/NJxApiS0PAcIMM0+YT5ZNt8Wtsdl3nWKZnwMWekr+MY23FyR0ZfA6o2rjtGLZXxyxNp/GTWi67YWtG/r9T7E1dKjowmCyxNQPuwkp5MVNKVhY3mPQQHSlonzA2iXK+cqDiXTT3if5Wwz5R5/RXarYp0UQIpcs8b2Y3CcoEpP/QIE3eVs09Zbum5xFJwQ1gy4hOBdDP3zl+kbOswB4lGgWVV590mj/x/4+lg61h0Gdzhi/WixjmO3RICHyf0vLRh6/x8x1nKHtvFAD3Vf0clx eugenio@em.local"
+
+  ],
+  "groups": [ "sysadmin", "dba", "devops" ],
+  "uid": 2001,
+  "shell": "\/bin\/bash",
+  "comment": "BOFH"
+}
